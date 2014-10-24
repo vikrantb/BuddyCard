@@ -1,0 +1,215 @@
+2014-10-22 20:16:34,043 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 20:16:35,590 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 20:16:35,590 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/services/invoicing https://api.paypal.com/v1/vault/credit-card/.*","access_token":"A015NLwsnm00sZDf.XgT9qu2Qgkrmfq0qtnq4t7PKeTb2zg","token_type":"Bearer","app_id":"APP-80W284485P519543T","expires_in":28800}
+2014-10-22 20:16:38,262 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 20:16:38,262 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 20:16:38,262 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015NLwsnm00sZDf.XgT9qu2Qgkrmfq0qtnq4t7PKeTb2zg
+2014-10-22 20:16:38,262 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:eab41883-81ba-48cf-8d0a-3bf4fcb2f2ac
+2014-10-22 20:16:38,559 [6] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 20:16:38,559 [6] ERROR PayPal.HttpConnection [(null)] {"name":"INVALID_RESOURCE_ID","message":"The requested resource ID was not found","information_link":"https://developer.paypal.com/docs/api/#INVALID_RESOURCE_ID","debug_id":"ec103e3329e98"}
+2014-10-22 20:16:38,559 [6] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (404) Not Found.
+2014-10-22 22:07:18,569 [7] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 22:07:19,898 [7] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 22:07:19,898 [7] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A0158YBgrYt1LL6YMU8AAqFrkX3zsA8QZek2PKTOJjNWPKs","token_type":"Bearer","expires_in":28800}
+2014-10-22 22:07:22,148 [7] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 22:07:22,148 [7] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 22:07:22,148 [7] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A0158YBgrYt1LL6YMU8AAqFrkX3zsA8QZek2PKTOJjNWPKs
+2014-10-22 22:07:22,148 [7] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:5a734ea8-bcf7-4448-8de4-4ed32c0b0e4d
+2014-10-22 22:07:22,429 [7] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 22:07:22,429 [7] ERROR PayPal.HttpConnection [(null)] {"name":"INVALID_RESOURCE_ID","message":"The requested resource ID was not found","information_link":"https://developer.paypal.com/docs/api/#INVALID_RESOURCE_ID","debug_id":"cf78161652fd5"}
+2014-10-22 22:07:22,429 [7] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (404) Not Found.
+2014-10-22 22:14:34,864 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 22:14:35,723 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 22:14:35,723 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015dfYsXRYbFiK1ZIOXBLYuEem8m3qh4QAvNIQcbj2YclA","token_type":"Bearer","expires_in":28800}
+2014-10-22 22:14:37,504 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 22:14:37,504 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 22:14:37,504 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015dfYsXRYbFiK1ZIOXBLYuEem8m3qh4QAvNIQcbj2YclA
+2014-10-22 22:14:37,504 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:00ac45ff-d172-44a4-9e13-3aeae59b0bfc
+2014-10-22 22:14:37,504 [6] DEBUG PayPal.HttpConnection [(null)] {"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":0}
+2014-10-22 22:14:37,832 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 22:14:37,832 [6] DEBUG PayPal.HttpConnection [(null)] {"id":"CARD-2LU23710AS075850LKREI5NQ","state":"ok","type":"visa","number":"xxxxxxxxxxxx0331","expire_month":"11","expire_year":"2018","valid_until":"2017-10-22T00:00:00Z","create_time":"2014-10-23T05:14:30Z","update_time":"2014-10-23T05:14:30Z","links":[{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-2LU23710AS075850LKREI5NQ","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-2LU23710AS075850LKREI5NQ","rel":"delete","method":"DELETE"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-2LU23710AS075850LKREI5NQ","rel":"patch","method":"PATCH"}]}
+2014-10-22 22:14:46,786 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 22:14:47,301 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 22:14:47,301 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015mDHhVS0UUZksPvIijUP.bQjEs7HULbtB-SfS1nTt1DY","token_type":"Bearer","expires_in":28800}
+2014-10-22 22:14:47,301 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 22:14:47,301 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 22:14:47,301 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015mDHhVS0UUZksPvIijUP.bQjEs7HULbtB-SfS1nTt1DY
+2014-10-22 22:14:47,301 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:0864d5c5-498c-4ac9-8ab4-9b2fc9514614
+2014-10-22 22:14:47,614 [6] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 22:14:47,614 [6] ERROR PayPal.HttpConnection [(null)] {"name":"INVALID_RESOURCE_ID","message":"The requested resource ID was not found","information_link":"https://developer.paypal.com/docs/api/#INVALID_RESOURCE_ID","debug_id":"c0cd05b593cb3"}
+2014-10-22 22:14:47,614 [6] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (404) Not Found.
+2014-10-22 22:16:49,294 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 22:16:50,154 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 22:16:50,154 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015VW1vPkQQT3dJA0TYfp7L09Mg7s8bLt7lq.A57CDGaSk","token_type":"Bearer","expires_in":28800}
+2014-10-22 22:16:51,107 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 22:16:51,107 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 22:16:51,107 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015VW1vPkQQT3dJA0TYfp7L09Mg7s8bLt7lq.A57CDGaSk
+2014-10-22 22:16:51,107 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:8d5ddc2d-0015-49ab-ae09-662142031262
+2014-10-22 22:16:51,107 [6] DEBUG PayPal.HttpConnection [(null)] {"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":0}
+2014-10-22 22:16:51,404 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 22:16:51,404 [6] DEBUG PayPal.HttpConnection [(null)] {"id":"CARD-6BJ59757882935400KREI6PA","state":"ok","type":"visa","number":"xxxxxxxxxxxx0331","expire_month":"11","expire_year":"2018","valid_until":"2017-10-22T00:00:00Z","create_time":"2014-10-23T05:16:44Z","update_time":"2014-10-23T05:16:44Z","links":[{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-6BJ59757882935400KREI6PA","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-6BJ59757882935400KREI6PA","rel":"delete","method":"DELETE"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-6BJ59757882935400KREI6PA","rel":"patch","method":"PATCH"}]}
+2014-10-22 22:17:05,857 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 22:17:06,357 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 22:17:06,357 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A01572lWLBN7ad2yX360WU4DlwZH64aGHYBitzecPUpJbMk","token_type":"Bearer","expires_in":28800}
+2014-10-22 22:17:06,373 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 22:17:06,373 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 22:17:06,373 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A01572lWLBN7ad2yX360WU4DlwZH64aGHYBitzecPUpJbMk
+2014-10-22 22:17:06,373 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:44d78c92-7d85-41f0-812b-a08a94c66627
+2014-10-22 22:17:06,669 [6] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 22:17:06,669 [6] ERROR PayPal.HttpConnection [(null)] {"name":"INVALID_RESOURCE_ID","message":"The requested resource ID was not found","information_link":"https://developer.paypal.com/docs/api/#INVALID_RESOURCE_ID","debug_id":"5e8acdc5c44dc"}
+2014-10-22 22:17:06,669 [6] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (404) Not Found.
+2014-10-22 22:17:38,371 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 22:17:39,246 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 22:17:39,246 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015-Qz4uP0mYuaJP3XHVul4Bh30HuLJ9UM6UmGCcxBZOmg","token_type":"Bearer","expires_in":28800}
+2014-10-22 22:17:40,402 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 22:17:40,402 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 22:17:40,402 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015-Qz4uP0mYuaJP3XHVul4Bh30HuLJ9UM6UmGCcxBZOmg
+2014-10-22 22:17:40,402 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:76d7c267-10d1-4b4a-9135-fd13af184283
+2014-10-22 22:17:40,543 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 22:17:40,543 [6] DEBUG PayPal.HttpConnection [(null)] {"id":"CARD-6BJ59757882935400KREI6PA","state":"ok","type":"visa","number":"xxxxxxxxxxxx0331","expire_month":"11","expire_year":"2018","valid_until":"2017-10-22T00:00:00Z","create_time":"2014-10-23T05:16:44Z","update_time":"2014-10-23T05:16:44Z","links":[{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-6BJ59757882935400KREI6PA","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-6BJ59757882935400KREI6PA","rel":"delete","method":"DELETE"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-6BJ59757882935400KREI6PA","rel":"patch","method":"PATCH"}]}
+2014-10-22 23:19:57,713 [7] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 23:19:58,667 [7] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 23:19:58,667 [7] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015MxWMRPLjWuR8LdW8ZNBorTnJWUKdIT6BtKkjWoQP1ew","token_type":"Bearer","expires_in":28800}
+2014-10-22 23:19:59,854 [7] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 23:19:59,854 [7] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 23:19:59,854 [7] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015MxWMRPLjWuR8LdW8ZNBorTnJWUKdIT6BtKkjWoQP1ew
+2014-10-22 23:19:59,854 [7] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:aa12b8b5-7f25-4c21-b3e0-af8db84fd3f0
+2014-10-22 23:19:59,854 [7] DEBUG PayPal.HttpConnection [(null)] {"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":0}
+2014-10-22 23:20:00,198 [7] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 23:20:00,198 [7] DEBUG PayPal.HttpConnection [(null)] {"id":"CARD-5KN42230TD982891RKREJ4CI","state":"ok","type":"visa","number":"xxxxxxxxxxxx0331","expire_month":"11","expire_year":"2018","valid_until":"2017-10-22T00:00:00Z","create_time":"2014-10-23T06:19:53Z","update_time":"2014-10-23T06:19:53Z","links":[{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-5KN42230TD982891RKREJ4CI","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-5KN42230TD982891RKREJ4CI","rel":"delete","method":"DELETE"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-5KN42230TD982891RKREJ4CI","rel":"patch","method":"PATCH"}]}
+2014-10-22 23:20:04,385 [7] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 23:20:04,901 [7] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 23:20:04,901 [7] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015ecJWRPThkka4n6VXvulsLFWlMf7-asDZDdyH5ccbM8k","token_type":"Bearer","expires_in":28800}
+2014-10-22 23:29:59,516 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 23:30:00,339 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 23:30:00,339 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015u71p2BG9lcwrJ3bY0x8f8oVboJI9JnBP9JT4UxbVKV8","token_type":"Bearer","expires_in":28800}
+2014-10-22 23:30:01,908 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 23:30:01,908 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 23:30:01,908 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015u71p2BG9lcwrJ3bY0x8f8oVboJI9JnBP9JT4UxbVKV8
+2014-10-22 23:30:01,909 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:93067b16-b6ef-4c2d-afc1-7c28bb3226bc
+2014-10-22 23:30:02,220 [6] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 23:30:02,220 [6] ERROR PayPal.HttpConnection [(null)] {"name":"REQUIRED_SCOPE_MISSING","message":"Access token does not have required scope","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#REQUIRED_SCOPE_MISSING","debug_id":"6d6f575517a17"}
+2014-10-22 23:30:02,220 [6] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (403) Forbidden.
+2014-10-22 23:31:05,371 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 23:31:06,076 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 23:31:06,076 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015eHq0D6aJ6vTswwe1Vpud.ATsqrfdbv87G--V5-7sknI","token_type":"Bearer","expires_in":28800}
+2014-10-22 23:31:07,608 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 23:31:07,608 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 23:31:07,609 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015eHq0D6aJ6vTswwe1Vpud.ATsqrfdbv87G--V5-7sknI
+2014-10-22 23:31:07,609 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:2221b726-8da5-42fc-8a20-c637b6051497
+2014-10-22 23:31:08,846 [6] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 23:31:08,846 [6] ERROR PayPal.HttpConnection [(null)] {"name":"REQUIRED_SCOPE_MISSING","message":"Access token does not have required scope","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#REQUIRED_SCOPE_MISSING","debug_id":"b9627891723b3"}
+2014-10-22 23:31:08,846 [6] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (403) Forbidden.
+2014-10-22 23:33:24,934 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 23:33:25,649 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 23:33:25,650 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015MJBaV.XhtPMUPBIeVB7OQidj6D8XNZBFQKacUPq14fk","token_type":"Bearer","expires_in":28800}
+2014-10-22 23:33:27,141 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 23:33:27,142 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 23:33:27,143 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015MJBaV.XhtPMUPBIeVB7OQidj6D8XNZBFQKacUPq14fk
+2014-10-22 23:33:27,143 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:4e782782-c650-405a-abe6-90f4e95a1633
+2014-10-22 23:33:27,356 [6] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 23:33:27,356 [6] ERROR PayPal.HttpConnection [(null)] {"name":"REQUIRED_SCOPE_MISSING","message":"Access token does not have required scope","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#REQUIRED_SCOPE_MISSING","debug_id":"4048f0051a496"}
+2014-10-22 23:33:27,356 [6] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (403) Forbidden.
+2014-10-22 23:38:23,190 [8] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 23:38:23,967 [8] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 23:38:23,968 [8] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A0151-krXIdEAJvXf8kgTgKrgNKjz8c301dRefusi39bAi0","token_type":"Bearer","expires_in":28800}
+2014-10-22 23:38:25,652 [8] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 23:38:25,652 [8] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 23:38:25,652 [8] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A0151-krXIdEAJvXf8kgTgKrgNKjz8c301dRefusi39bAi0
+2014-10-22 23:38:25,652 [8] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:c1008cb4-fcb8-406b-9b76-f427d53019f0
+2014-10-22 23:38:25,861 [8] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 23:38:25,862 [8] ERROR PayPal.HttpConnection [(null)] {"name":"REQUIRED_SCOPE_MISSING","message":"Access token does not have required scope","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#REQUIRED_SCOPE_MISSING","debug_id":"4dd3f66ce90e3"}
+2014-10-22 23:38:25,862 [8] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (403) Forbidden.
+2014-10-22 23:41:28,487 [7] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 23:41:29,304 [7] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 23:41:29,304 [7] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015nlX2VH6TkrbkCxLsStMSeShwQds15z4ct1PI7yUBzLQ","token_type":"Bearer","expires_in":28800}
+2014-10-22 23:41:34,172 [7] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 23:41:34,173 [7] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 23:41:34,173 [7] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015nlX2VH6TkrbkCxLsStMSeShwQds15z4ct1PI7yUBzLQ
+2014-10-22 23:41:34,173 [7] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:a2ff88f9-a120-462b-996e-8382299568fc
+2014-10-22 23:41:34,405 [7] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 23:41:34,406 [7] ERROR PayPal.HttpConnection [(null)] {"name":"REQUIRED_SCOPE_MISSING","message":"Access token does not have required scope","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#REQUIRED_SCOPE_MISSING","debug_id":"bd2a76929b1f0"}
+2014-10-22 23:41:34,406 [7] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (403) Forbidden.
+2014-10-22 23:42:37,781 [7] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 23:42:39,584 [7] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 23:42:39,584 [7] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015RiXzdMuBciRkBOnlytDpicX4VEwSasFHUfEtqeLLHs4","token_type":"Bearer","expires_in":28800}
+2014-10-22 23:42:47,968 [7] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 23:42:47,969 [7] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 23:42:47,969 [7] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015RiXzdMuBciRkBOnlytDpicX4VEwSasFHUfEtqeLLHs4
+2014-10-22 23:42:47,969 [7] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:6ea76c98-0902-48cc-bfcf-cab303cfc0d0
+2014-10-22 23:42:48,200 [7] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 23:42:48,200 [7] ERROR PayPal.HttpConnection [(null)] {"name":"REQUIRED_SCOPE_MISSING","message":"Access token does not have required scope","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#REQUIRED_SCOPE_MISSING","debug_id":"c60c2329a9869"}
+2014-10-22 23:42:48,200 [7] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (403) Forbidden.
+2014-10-22 23:44:03,895 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-22 23:44:04,869 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-22 23:44:04,870 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015ZzSfl8wYqHvSLs1d.NfkbcqOcZ0NroF26UNvGqStpmc","token_type":"Bearer","expires_in":28800}
+2014-10-22 23:45:01,615 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-22 23:45:01,615 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-22 23:45:01,616 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015ZzSfl8wYqHvSLs1d.NfkbcqOcZ0NroF26UNvGqStpmc
+2014-10-22 23:45:01,616 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:1b450593-11c9-4320-afb8-9e7e257129b5
+2014-10-22 23:45:01,847 [6] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-22 23:45:01,847 [6] ERROR PayPal.HttpConnection [(null)] {"name":"REQUIRED_SCOPE_MISSING","message":"Access token does not have required scope","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#REQUIRED_SCOPE_MISSING","debug_id":"eda32bde3c766"}
+2014-10-22 23:45:01,848 [6] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (403) Forbidden.
+2014-10-23 21:52:32,132 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-23 21:52:33,898 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-23 21:52:33,898 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015meQd2W2uEmlyGVUJn9CUS4Iv-noqBGH-WCB4l93q1fU","token_type":"Bearer","expires_in":28800}
+2014-10-23 21:52:38,273 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-23 21:52:38,273 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-23 21:52:38,273 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015meQd2W2uEmlyGVUJn9CUS4Iv-noqBGH-WCB4l93q1fU
+2014-10-23 21:52:38,273 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:b6a36cc2-610e-48b1-a07f-bce4e4a11cc2
+2014-10-23 21:52:38,617 [6] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-23 21:52:38,617 [6] ERROR PayPal.HttpConnection [(null)] {"name":"REQUIRED_SCOPE_MISSING","message":"Access token does not have required scope","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#REQUIRED_SCOPE_MISSING","debug_id":"0378927dae15a"}
+2014-10-23 21:52:38,617 [6] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (403) Forbidden.
+2014-10-23 22:01:26,808 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-23 22:01:27,667 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-23 22:01:27,667 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015OjWI9.kyHcYm.E3ohR.8yWFn7CULMNC9TKrNjPZsCX0","token_type":"Bearer","expires_in":28800}
+2014-10-23 22:01:28,636 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-23 22:01:28,636 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-23 22:01:28,636 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015OjWI9.kyHcYm.E3ohR.8yWFn7CULMNC9TKrNjPZsCX0
+2014-10-23 22:01:28,636 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:c9e427e1-f8b9-4277-a265-69bb8cd74f3e
+2014-10-23 22:01:28,636 [6] DEBUG PayPal.HttpConnection [(null)] {"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":0}
+2014-10-23 22:01:29,277 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-23 22:01:29,277 [6] DEBUG PayPal.HttpConnection [(null)] {"id":"CARD-1U974574A9513054TKRE52II","state":"ok","type":"visa","number":"xxxxxxxxxxxx0331","expire_month":"11","expire_year":"2018","valid_until":"2017-10-23T00:00:00Z","create_time":"2014-10-24T05:01:21Z","update_time":"2014-10-24T05:01:21Z","links":[{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-1U974574A9513054TKRE52II","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-1U974574A9513054TKRE52II","rel":"delete","method":"DELETE"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-1U974574A9513054TKRE52II","rel":"patch","method":"PATCH"}]}
+2014-10-23 22:01:42,074 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-23 22:01:42,917 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-23 22:01:42,917 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015Tl8jEtBe.db3-weI7VDT8zuQKtNcdDe0UyAyAxqOTQw","token_type":"Bearer","expires_in":28800}
+2014-10-23 22:01:58,699 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-23 22:01:58,699 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-23 22:01:58,714 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015Tl8jEtBe.db3-weI7VDT8zuQKtNcdDe0UyAyAxqOTQw
+2014-10-23 22:01:58,714 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:73197031-4fd5-4161-96c9-d6763b0e1686
+2014-10-23 22:01:58,964 [6] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-23 22:01:58,964 [6] ERROR PayPal.HttpConnection [(null)] {"name":"REQUIRED_SCOPE_MISSING","message":"Access token does not have required scope","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#REQUIRED_SCOPE_MISSING","debug_id":"e19dea35d7966"}
+2014-10-23 22:01:58,964 [6] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (403) Forbidden.
+2014-10-23 22:19:03,389 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-23 22:19:04,248 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-23 22:19:04,248 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015kjs6FibJCprsbVx6roCXrivI3CMbHut0akZ3l4y5l9M","token_type":"Bearer","expires_in":28800}
+2014-10-23 22:19:04,389 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-23 22:19:04,389 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-23 22:19:04,389 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015kjs6FibJCprsbVx6roCXrivI3CMbHut0akZ3l4y5l9M
+2014-10-23 22:19:04,389 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:8e79d76e-d36d-4237-9419-4515066456c5
+2014-10-23 22:19:04,389 [6] DEBUG PayPal.HttpConnection [(null)] {"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":0}
+2014-10-23 22:19:04,983 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-23 22:19:04,983 [6] DEBUG PayPal.HttpConnection [(null)] {"id":"CARD-1HH377770E149170KKRE6CQA","state":"ok","type":"visa","number":"xxxxxxxxxxxx0331","expire_month":"11","expire_year":"2018","valid_until":"2017-10-23T00:00:00Z","create_time":"2014-10-24T05:18:56Z","update_time":"2014-10-24T05:18:56Z","links":[{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-1HH377770E149170KKRE6CQA","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-1HH377770E149170KKRE6CQA","rel":"delete","method":"DELETE"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-1HH377770E149170KKRE6CQA","rel":"patch","method":"PATCH"}]}
+2014-10-23 22:19:05,030 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-23 22:19:05,826 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-23 22:19:05,826 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015.QUuOIZ1Ep.WdUNiDaZ9uEE0vHrL.m3IcPUAL0IsFps","token_type":"Bearer","expires_in":28800}
+2014-10-23 22:19:08,030 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-23 22:19:08,030 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-23 22:19:08,030 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015.QUuOIZ1Ep.WdUNiDaZ9uEE0vHrL.m3IcPUAL0IsFps
+2014-10-23 22:19:08,030 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:d652f05a-ad0c-409b-9ece-0c17decbee04
+2014-10-23 22:19:08,295 [6] ERROR PayPal.HttpConnection [(null)] Error response:
+2014-10-23 22:19:08,295 [6] ERROR PayPal.HttpConnection [(null)] {"name":"REQUIRED_SCOPE_MISSING","message":"Access token does not have required scope","information_link":"https://developer.paypal.com/webapps/developer/docs/api/#REQUIRED_SCOPE_MISSING","debug_id":"f856dc583520b"}
+2014-10-23 22:19:08,295 [6] ERROR PayPal.HttpConnection [(null)] The remote server returned an error: (403) Forbidden.
+2014-10-23 22:23:47,742 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-23 22:23:48,547 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-23 22:23:48,548 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015PCaAT63sgVbxPgJbKexuQi0PqYJyND52U0gjMY884NE","token_type":"Bearer","expires_in":28800}
+2014-10-23 22:23:53,044 [6] DEBUG PayPal.PayPalResource [(null)] Content-Type:application/json
+2014-10-23 22:23:53,044 [6] DEBUG PayPal.PayPalResource [(null)] User-Agent:PayPalSDK/rest-sdk-dotnet 0.10.0 (core=1.5.1;lang=DOTNET;v=4.5;clr=4.0.30319.34014;bit=64;os=Microsoft Windows NT 6.2.9200.0)
+2014-10-23 22:23:53,045 [6] DEBUG PayPal.PayPalResource [(null)] Authorization:Bearer A015PCaAT63sgVbxPgJbKexuQi0PqYJyND52U0gjMY884NE
+2014-10-23 22:23:53,045 [6] DEBUG PayPal.PayPalResource [(null)] PayPal-Request-Id:4adbb6b4-d56a-4edd-958a-aafb7234fa80
+2014-10-23 22:23:53,045 [6] DEBUG PayPal.HttpConnection [(null)] {"number":"4417119669820331","type":"visa","expire_month":11,"expire_year":2018,"cvv2":0}
+2014-10-23 22:23:53,642 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-23 22:23:53,645 [6] DEBUG PayPal.HttpConnection [(null)] {"id":"CARD-2SN424508U5407903KRE6EYI","state":"ok","type":"visa","number":"xxxxxxxxxxxx0331","expire_month":"11","expire_year":"2018","valid_until":"2017-10-23T00:00:00Z","create_time":"2014-10-24T05:23:45Z","update_time":"2014-10-24T05:23:45Z","links":[{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-2SN424508U5407903KRE6EYI","rel":"self","method":"GET"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-2SN424508U5407903KRE6EYI","rel":"delete","method":"DELETE"},{"href":"https://api.sandbox.paypal.com/v1/vault/credit-card/CARD-2SN424508U5407903KRE6EYI","rel":"patch","method":"PATCH"}]}
+2014-10-23 22:24:08,094 [6] DEBUG PayPal.HttpConnection [(null)] grant_type=client_credentials
+2014-10-23 22:24:08,882 [6] DEBUG PayPal.HttpConnection [(null)] Service response
+2014-10-23 22:24:08,884 [6] DEBUG PayPal.HttpConnection [(null)] {"scope":"openid email https://uri.paypal.com/services/paypalattributes","access_token":"A015WY5gXQlyKGBRhKM.XgT.Y-GMzVEOT7JBvtPGqNAQOUs","token_type":"Bearer","expires_in":28800}
